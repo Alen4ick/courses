@@ -1,0 +1,7 @@
+#include<iostream>
+int value {};
+int main(){
+    //int value {};
+    //int value{}; 2 раз неправильно писать
+    std::cout<<value;
+}
