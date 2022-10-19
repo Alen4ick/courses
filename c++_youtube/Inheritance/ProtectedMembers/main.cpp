@@ -1,6 +1,10 @@
 #include <iostream>
-#include "player.h"
+#include "player.hpp"
+#include "player.cpp"
 int main(){
 
-    std::cout<<"alen karapetyan";
+    Player p1("Basketball","John","Snow");
+    std::cout << "player : " << p1 << std::endl;
+   
+    return 0;
 }

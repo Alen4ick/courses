@@ -1,5 +1,5 @@
-#include "person.h"
-#include "player.h"
+#include "person.hpp"
+#include "player.hpp"
 
 Player::Player(std::string_view game_param, std::string_view first_name_param,
             std::string_view last_name_param)

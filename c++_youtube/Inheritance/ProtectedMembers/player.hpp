@@ -1,11 +1,10 @@
-#ifndef PLAYER_H
-#define PLAYER_H
+#ifndef PLAYER_HPP
+#define PLAYER_HPP
 
 #include <string>
 #include <iostream>
 #include <string_view>
-#include "person.h"
-
+#include "person.hpp"
 class Player : public Person
 {
     friend std::ostream& operator<<(std::ostream& out, const Player& player);
