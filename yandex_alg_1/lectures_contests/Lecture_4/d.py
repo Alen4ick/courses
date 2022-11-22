@@ -1,11 +1,10 @@
 n = int(input())
-d = {i : int(i) for i in input().split()}
+d = {i + 1 : int(el) for i, el in enumerate(input().split())}
 k = int(input())
-inp = input().split()
-for el in inp:
-    d[el]-=1
-for key in d.keys():
-    if d[key] >=0:
+for number in input().split():
+    d[int(number)]-=1
+for number in range(1, n + 1):
+    if d[number] < 0:
         print("YES")
     else:
         print("NO")
